@@ -1,0 +1,129 @@
+body
+{
+    font-size: 15px;
+}
+
+h1
+{
+    display: flex;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    margin: 30px 0px 20px 50px;
+}
+
+p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px 0px 70px 20px;
+    width: 125px;
+    margin: 0px 0px 50px 50px;
+}
+
+svg
+{
+    display: flex;
+    justify-self: center;
+    margin: 50px 0px 5px 50px;
+}
+
+.button
+{
+    display: flex;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0px 0px 0px 50px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.background
+{
+    color: hsl(0, 0%, 95%);
+}
+
+.cars-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sedans-container
+{
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    width: 250px;
+}
+
+.sedans-container .button
+{
+  color: hsl(31, 77%, 52%);
+}
+
+.sedans-container .button:hover
+{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px white solid;
+}
+
+.suvs-container
+{
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 250px;
+}
+
+.suvs-container .button
+{
+  color: hsl(184, 100%, 22%);
+}
+
+.suvs-container .button:hover
+{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px white solid;
+}
+
+.luxury-container
+{
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    width: 250px;
+}
+
+.luxury-container .button
+{
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-container .button:hover
+{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border: 2px white solid;
+}
+
+@media only screen and (width: 375px)
+{
+    
+}
+
+@media only screen and (width: 1440px)
+{
+    
+}
+
